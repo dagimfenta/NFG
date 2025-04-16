@@ -677,8 +677,7 @@ struct ManageDriversView: View {
                     .foregroundColor(.gray)
             })
             .sheet(isPresented: $showingCreateDriver) {
-                // TODO: Implement CreateDriverView
-                Text("Create Driver View Coming Soon")
+                CreateDriverView()
             }
             .sheet(isPresented: $showingDriverList) {
                 // TODO: Implement DriverListView
